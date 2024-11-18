@@ -6,3 +6,4 @@ for word in str1: #Цикл for для перебора элементов(word)
     if word not in str2: #Цикл if для проверки отсутствия элемента(word) в списке str2
         words.write(word) #Добавлениие уникального элемента в файл output.txt
     str2.append(word) #Добавление элемента(word) в список str2
+print("Уникальные слова: ", str2) #Вывод на консоль
